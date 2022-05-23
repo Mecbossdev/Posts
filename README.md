@@ -1,5 +1,5 @@
 # Post
-Um page em React js com Jest e Test library em cada component e com consumo de API, aplicação de post.
+Um page em React js com Jest e Test library em cada component usando hooks e mocks e com consumo de API, aplicação de post.
 
 ## Objetivo
 
