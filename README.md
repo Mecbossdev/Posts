@@ -1,5 +1,5 @@
 # Post
-Um aplicativo react-Native de filmes com o Consumo de Api de filmes muito conhecida, praticas de react Navigation.
+Um page em React js com Jest e Test library em cada component e com consumo de API, aplicação de post.
 
 ## Objetivo
 
