@@ -1,21 +1,12 @@
 import './styles.css';
 
-import { Component } from 'react/cjs/react.production.min';
+export const Button = ({ text, onClick, disabled }) => (
+  <button
+    className= "button"
+    onClick={onClick}
+    disabled={disabled}
+  >
+    {text}
+  </button>
+)
 
-export class Button extends Component {
-
-  render() {
-    const {text, onclick, disabled } = this.props;
-    
-    
-    return (
-      <button 
-        className='button' 
-        onClick={onclick}
-        disabled={disabled}
-      >
-        {text}
-      </button>
-    );
-  }
-}
